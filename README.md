@@ -1,1 +1,2 @@
 # VR
+[labyrinthe](./labyrinthe.html)
