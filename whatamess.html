@@ -1,10 +1,11 @@
 <html>
-    <head>
-      <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
-    </head>
+  <head>
+    <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
 
-    <body>
-        <a-assets>
+          <a-assets>
             <a-asset-item id="toureiffel" src="./whatamess.html/eiffel_tower.glb"></a-asset-item>
             <a-asset-item id="arcdetriomphe" src="./arc_de_triomphe.glb"></a-asset-item>
             <a-asset-item id="bigben" src="./big_ben.glb"></a-asset-item>
@@ -14,13 +15,35 @@
             <a-asset-item id="statueoflibery" src="./statue_of_liberty.glb"></a-asset-item>
             <a-asset-item id="pyramid" src="./pyramid_2.0.glb"></a-asset-item>
             <a-asset-item id="greatpyramid" src="./the_great_pyramid_of_giza.glb"></a-asset-item>
-        </a-assets>
+          </a-assets>
 
-        <scene>
-            <a-sky color="#345" radius="500"></a-sky>
-            <a-entity gltf-model="#toureiffel" position="0 0.09 -1.5" scale="1 1 1"></a-entity>
-            <!-- Ajouter autres entités ici -->
-        </scene>
-    </body>
-</html>
+
+          <a-entity position="0.75 0 1.75" scale="0.01 0.01 0.01" rotation="-90 -90 0" obj-model="obj: #obj; mtl: #mtl"></a-entity>
+          <a-entity position="-0.75 0 1.5" scale="0.01 0.01 0.01" rotation="-90 180 0" obj-model="obj: #obj1; mtl: #mtl1"></a-entity>
+          <a-entity position="1.8 3 -1.5" scale="0.05 0.05 0.05" rotation="0 -90 180" obj-model="obj: #obj2; mtl: #mtl2"></a-entity>
+          <a-entity position="-0.75 0 -0.75" scale="0.004 0.004 0.004" rotation="-90 0 0" obj-model="obj: #obj3; mtl: #mtl3"></a-entity>
+          <a-entity position="0.35 4 0" scale="0.002 0.002 0.002" rotation="90 0 0" obj-model="obj: #obj4; mtl: #mtl4"></a-entity>
+          <a-entity position="1.25 0.7 -0.66" scale="0.09 0.09 0.09" rotation="-90 -90 90" obj-model="obj: #obj5; mtl: #mtl5"></a-entity>
+          <a-entity position="-1.43 2 1.5" scale="0.05 0.05 0.05" rotation="90 -90 90" obj-model="obj: #obj6; mtl: #mtl6"></a-entity>
+          <a-entity position="0 1 0" scale="0.05 0.05 0.05" rotation="0 180 0" obj-model="obj: #obj7; mtl: #mtl7"></a-entity>
+          <a-entity position="-1.35 1 -0.5" scale="0.4 0.4 0.4" rotation="0 0 0" obj-model="obj: #obj9; mtl: #mtl9"></a-entity> 
+          <a-entity position="0 1.8 -1" scale="0.003 0.003 0.003" rotation="0 0 0" obj-model="obj: #obj10; mtl: #mtl10"></a-entity> 
+          <a-entity position="2 2 0.5" scale="0.01 0.01 0.01" rotation="0 -90 180" obj-model="obj: #obj11; mtl: #mtl11"></a-entity> 
+          <a-entity position="1 4 1.25" scale="0.02 0.02 0.02" rotation="90 -90 180" obj-model="obj: #obj12; mtl: #mtl12"></a-entity>
+          <a-entity position="0.6 0.25 -0.7" scale="0.05 0.05 0.05" rotation="-90 0 0" obj-model="obj: #obj2; mtl: #mtl2"></a-entity>  
+          <a-entity position="0.6 0 -1.75" scale="0.005 0.005 0.005" rotation="-90 0 0" obj-model="obj: #obj13; mtl: #mtl13"></a-entity> 
+          <a-entity position="1 0 0.6" scale="0.004 0.004 0.004" rotation="-90 -90 0" obj-model="obj: #obj14; mtl: #mtl14"></a-entity> 
+          <a-entity position="0 0.9 -0.7" scale="0.001 0.001 0.001" rotation="-90 -90 0" obj-model="obj: #obj15; mtl: #mtl15"></a-entity> 
+          <a-entity position="-1.7 0 -1.4" scale="0.001 0.001 0.001" rotation="-90 90 0" obj-model="obj: #obj16; mtl: #mtl16"></a-entity>   
     
+        <a-plane position="0 0 0" rotation="90 0 0"  width="4" height="4"side="double"></a-plane>
+       <a-plane position="0 2 -2" rotation="0 0 0"  width="4" height="4"side="double"></a-plane>
+       <a-plane position="0 4 0" rotation="90 90 0"  width="4" height="4"side="double"></a-plane>
+       <a-plane position="2 2 0" rotation="0 90 0"  width="4" height="4"side="double"></a-plane>
+       <a-plane position="-2 2 0" rotation="0 90 0"  width="4" height="4" side="double"></a-plane>
+       <a-plane position="0 2 2" rotation="0 0 0"  width="4" height="4"side="double"></a-plane>
+    
+       <a-sky color="#345" radius="500"></a-sky>
+    </a-scene>
+  </body>
+</html>
