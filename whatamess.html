@@ -1,48 +1,26 @@
-whatamess.html
-    </script>
+<html>
+    <head>
+      <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+    </head>
 
-</head>
-
-   <body>
-
-        <!-- ASSETS -->
+    <body>
         <a-assets>
-            <!-- SKIES -->
-            <img id="sky1" src="./assets/135737-obscurite-minuit-ciel-objet_astronomique-nuit-x750.jpg">
-
-            <!-- MODELS 3D (changer assets) -->
-            <a-asset-item id="toureiffel" src="./solar/brick_building_free.glb"></a-asset-item>
-            <a-asset-item id="arcdetriomphe" src="./solar/building_06.glb"></a-asset-item>
-            <a-asset-item id="bigben" src="./solar/rice_plant.glb"></a-asset-item>
+            <a-asset-item id="toureiffel" src="./whatamess.html/eiffel_tower.glb"></a-asset-item>
+            <a-asset-item id="arcdetriomphe" src="./arc_de_triomphe.glb"></a-asset-item>
+            <a-asset-item id="bigben" src="./big_ben.glb"></a-asset-item>
             <a-asset-item id="goldengate" src="./solar/solaradio.glb"></a-asset-item>
-            <a-asset-item id="moai" src="./solar/relogio_solar_tapada_da_ajuda.glb"></a-asset-item>
-            <a-asset-item id="stoneedge" src="./solar/post-apo_solar.glb"></a-asset-item>
-            <a-asset-item id="statueoflibery" src="./solar/post_apocalyptic_building_with_props.glb"></a-asset-item>
-            <a-asset-item id="pyramid" src="./solar/simple_grass_ground_free_low_model.glb"></a-asset-item>
-            <a-asset-item id="greatpyramid" src="./files/the_great_pyramid_of_giza"></a-asset-item>
+            <a-asset-item id="moai" src="./moai.glb"></a-asset-item>
+            <a-asset-item id="stoneedge" src="./stonehenge_england_-_vr.glb"></a-asset-item>
+            <a-asset-item id="statueoflibery" src="./statue_of_liberty.glb"></a-asset-item>
+            <a-asset-item id="pyramid" src="./pyramid_2.0.glb"></a-asset-item>
+            <a-asset-item id="greatpyramid" src="./the_great_pyramid_of_giza.glb"></a-asset-item>
         </a-assets>
 
-        <!-- scene-->
-        <a-sky id="image-360" radius="500" change-sky radius="10" src="#sky1"></a-sky>
-        <a-entity gltf-model="#greatpyramid" position="0 0.09 -1,5" scale="1 1 1"></a-entity>
-        <a-entity gltf-model="#building1" position="0 0.09 4,2" scale="0.005 0.005 0.005"></a-entity>
-        <a-entity gltf-model="#building1" position="4.8 0.09 4,1" scale="0.005 0.005 0.005"></a-entity>
-        <a-entity gltf-model="#building2" position="-1 1 2" scale="2 2 2"></a-entity>
-        <a-entity gltf-model="#building2" position="4.8 1 -1.6" scale="2 2 2"></a-entity>
-        <a-entity gltf-model="#building2" position="-1 0.5 7.2" scale="1 1 1"></a-entity>
-        <a-entity gltf-model="#solarradio" position="-0.1 0 5.6" scale="0.5 0.5 0.5"></a-entity>
-        <a-entity gltf-model="#solarplanel" position="-0.1 0 7" scale="1 1 1"></a-entity>
-        <a-entity gltf-model="#grass" position="1.1 0 3" scale="3 3 3"></a-entity>
-        <a-entity gltf-model="#building3" position="2 -0 6.9" scale="0.05 0.05 0.05"></a-entity>
-        <a-entity gltf-model="#sun" position="2 6.6 -3" scale="1 1 1"></a-entity>
-        <a-entity gltf-model="#sun" position="-1.4 12 4.5" scale="0.5 0.5 0.5"></a-entity>
-        <a-entity gltf-model="#sun" position="-0.8 6.2 3" scale="0.5 0.5 0.5"></a-entity>
-        <a-entity gltf-model="#sun" position="15.5 -0.2 1.4" scale="2 2 2"></a-entity>
-        <a-entity gltf-model="#sun" position="-9.7 -8 7.3" scale="1 1 1"></a-entity>
-        <a-entity gltf-model="#sun" position="2 20.9 -3" scale="0.5 0.5 0.5"></a-entity>
-        <a-entity gltf-model="#island" position="-20 71.7 -13" scale="0.5 0.5 0.5"></a-entity>
-
-    <body>    
-
-</head>
+        <scene>
+            <a-sky color="#345" radius="500"></a-sky>
+            <a-entity gltf-model="#toureiffel" position="0 0.09 -1.5" scale="1 1 1"></a-entity>
+            <!-- Ajoutez d'autres entités ici -->
+        </scene>
+    </body>
+</html>
     
