@@ -3,6 +3,6 @@
 
 [labyrinthe 2](./Labyrinthe2.html)
 
-[icanfly](./icanfly.html)
+[whatamess](./whatamess.html)
 
-.[whatamess](./whatamess.html)
+[icanfly](./icanfly.html)
