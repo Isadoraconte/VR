@@ -1,8 +1,10 @@
 # VR
-[labyrinthe](./labyrinthe.html)
+* [labyrinthe](./labyrinthe.html)
 
-[labyrinthe 2](./Labyrinthe2.html)
+* [labyrinthe 2](./Labyrinthe2.html)
 
-[whatamess](./whatamess.html)
+* [whatamess](./whatamess.html)
 
-[icanfly](./icanfly.html)
+* [icanfly](./icanfly.html)
+
+* [paysage360](./skybox/skybox.html)
